@@ -49,6 +49,7 @@ class DioClient {
     return retrievedUser;
   }
 
+  //This method will return list of users
   Future<UserInfoListResponse> getUserList() async {
     // Perform GET request to the endpoint "/users"
     Response? response;
