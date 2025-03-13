@@ -67,7 +67,7 @@ class DioClient {
     return UserInfoListResponse.fromJson(response?.data);
   }
 
-//This is to update user
+// This method is to update User
   Future<UserInfoResponsePut?> updateUser(
       int id, UserInfoBody userInfoBody) async {
     UserInfoResponsePut? retrievedUser;
